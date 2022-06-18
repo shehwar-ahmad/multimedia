@@ -1,0 +1,15 @@
+.profileCardContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height:100vh;
+} 
+
+.profileCard{
+    padding:50px;
+    max-width: 500px;
+}

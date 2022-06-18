@@ -1,0 +1,29 @@
+.loginBtn {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.emailField {
+  width: 250px;
+}
+
+.passwordField{
+    width: 250px;
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.forgotPassword {
+  margin: 20px 0;
+  font-size: 10px;
+}
+
+.submitBtn {
+  width: 100%;
+  max-width: 250px;
+  color: white;
+}
