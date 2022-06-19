@@ -25,7 +25,7 @@ const style = {
   p: 4,
 };
 
-export default function Login() {
+export default function Login({bgcolor='black'}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -55,8 +55,8 @@ export default function Login() {
       <Button
         style={{
           color: "black",
-          fontFamily:'100',
-          fontSize:'12px',
+          fontFamily: "100",
+          fontSize: "12px",
         }}
         className={styles.loginBtn}
         onClick={handleOpen}
@@ -124,7 +124,7 @@ export default function Login() {
             <p className={styles.forgotPassword}>Forgot your password?</p>
             <Button
               style={{
-                backgroundColor: "black",
+                backgroundColor: bgcolor,
                 color: "white",
               }}
               className={styles.submitBtn}

@@ -2,10 +2,6 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import MainMenu from "../components/Homepage/MainMenu/MainMenu";
 
 export default {
-  /* 👇 The title prop is optional.
-   * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
-   * to learn how to generate automatic titles
-   */
   title: "Main Menu",
   component: MainMenu,
 } as ComponentMeta<typeof MainMenu>;
